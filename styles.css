@@ -16,7 +16,7 @@
     src: url(Assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
 }
 
-aside
+aside /* credits */
 {
     font-size: .65rem;
     text-align: center;
@@ -32,7 +32,6 @@ aside > a {
 *{
     padding: 0;
     margin:0;
-    box-sizing: border-box;
     font-family: Figtree;
 }
 
@@ -44,29 +43,61 @@ body{
 }
 
 #mainContainer{
-    align-items: center;
+    justify-items: center;
     width: 350px;
     height: 500px;
     margin-left: auto;
-    border-radius: 10px;
-    border-width: thin;
+    border-radius: 20px;
     margin: auto;
-    background-color: white;
-    border: solid;
-    display: flex;
-    flex-direction: column;
+    background-color: var(--color-white);
+    box-shadow: 6px 6px 6px black;
 }
 
 .mainArt{
     width:90%;
     height: auto;
-    margin-top: 1em;
+    margin: 1em;
     border-radius: 10px;
 }
 
-h1{
+.articleType{
     background-color: var(--color-yellow);
-    font-size: 1.5rem;
+    font-size: .65rem;
+    text-align: center;
+    justify-self: start;
+    margin-left: 15px;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
 }
 
+.articleTitle{
+    font-weight: 800;
+    font-size: 1rem;
+    justify-self: start;
+    margin: 15px 15px;
+}
 
+.articleTitle:hover
+{
+    color: var(--color-yellow);
+    transition-duration: 0.4s;
+}
+
+.publishDate{
+    font-size: .65rem;
+    margin: 15px 15px;
+    justify-self: start;
+}
+
+.articleDesc{
+    margin: 15px 15px;
+}
+
+.author{
+    display: flex;
+}
+
+.author > p {
+    font-weight: bold;
+}
