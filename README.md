@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution on Front End Mentor](https://www.frontendmentor.io/solutions/blog-card-preview-EDkDcO9m28)
 - Live Site URL: [Site hosted by Github Pages](https://mwest1996.github.io/BlogCard/)
 
 ## My process
