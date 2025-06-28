@@ -21,8 +21,7 @@ aside /* credits */
     font-size: .65rem;
     text-align: center;
     font: Figtree, Arial, Helvetica, sans-serif;
-    margin: auto;
-    padding-top: 1.5em;
+    padding-top: 1.5rem;
 }
 
 aside > a {
@@ -43,39 +42,42 @@ body{
 }
 
 #mainContainer{
-    justify-items: center;
-    width: 350px;
-    height: 500px;
+    max-width: 375px;
+    height: 525px;
     margin-left: auto;
     border-radius: 20px;
+    border-style: solid;
+    border-width: 1.5px;
     margin: auto;
     background-color: var(--color-white);
-    box-shadow: 6px 6px 6px black;
+    box-shadow: 6px 6px 6px var(--color-grey-950);
 }
 
 .mainArt{
     width:90%;
     height: auto;
-    margin: 1em;
+    margin: 20px 20px;
     border-radius: 10px;
 }
 
 .articleType{
     background-color: var(--color-yellow);
-    font-size: .65rem;
+    font-size: 1rem;
+    font-weight: 800;
     text-align: center;
     justify-self: start;
-    margin-left: 15px;
+    margin: 0px 0px 0px 20px;
+    border-style: hidden;
     border-radius: 5px;
-    width: 50px;
-    height: 20px;
+    width: 90px;
+    height: 30px;
 }
 
 .articleTitle{
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 1.5rem;
     justify-self: start;
-    margin: 15px 15px;
+    margin: 20px;
 }
 
 .articleTitle:hover
@@ -85,19 +87,29 @@ body{
 }
 
 .publishDate{
-    font-size: .65rem;
-    margin: 15px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px;
     justify-self: start;
 }
 
 .articleDesc{
-    margin: 15px 15px;
+    margin: 20px;
+    color: var(--color-grey-500);
+    font-size: 1rem;
 }
 
 .author{
     display: flex;
+    margin: 20px;
 }
 
 .author > p {
-    font-weight: bold;
+    font-weight: 800;
+    margin: 10px;
+    text-justify: center;
+}
+
+.author > img{
+    align-self: center;
 }
